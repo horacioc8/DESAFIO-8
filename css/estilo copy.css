@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=My+Soul&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    background-color: #D3D0CB;
+
+}
+
+
+.menuPricipal{
+
+    background-color: #89b0ae ;
+    
+}
+
+body{
+    background-color: #B9C6AE !important;
+
+}
+
+
+li{
+
+    display: inline-block;
+    margin: 10px;
+    
+    
+    
+}
+
+.menuTexto{
+    
+    border: #2f3e46 solid;
+    display: flex;
+    justify-content: right;
+    font-size: xx-large;
+
+    
+    
+    border: 10 #89b0ae;
+}
+
+
+
+a{
+    
+    text-decoration: none;
+    font-family: 'Anton';
+    -webkit-text-stroke: 1px #2f3e46;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+a:hover{
+    background-color: #89b0ae;
+    border: 4px #bee3db solid;
+    
+}
+
+
+menu{
+    display: inline-block;
+}
+
+
+
+.cajaLogin{
+display: flex;
+align-items: center;
+justify-content: center;
+background-image: url(../img/glacier-g9dfd6091c_1920.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 800px;
+}
+
+
+
+.caja{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#faf9f9 ;
+    width: 500px;
+    height: 400px;
+    border: #2f3e46 solid;
+    
+    border-radius: 100px;
+}
+
+
+
+
+
+
+.boton { 
+    
+    text-align: center ;
+    justify-content: end;
+    font-size: x-large;
+    width: 200px;
+    height:45px;
+    background-color: #89b0ae;
+    border: 4px #bee3db solid;
+    font-family: 'Anton';
+    transition: height 0.4s , width 0.4s;
+}
+
+.boton:hover{
+    filter:opacity(80%)
+}
+.textoLogin{
+
+    
+    font-size: 20px;
+    display: flex;
+    font-family: 'Anton';
+    color: #2f3e46; 
+    padding: 5px;
+}
+
+input{
+    
+    font-size: large;
+}
+
+.logo{
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+
+.boxPrincipal{
+
+    padding: 100px;
+    margin: auto;
+    background-color: #B9C6AE;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.box{
+    margin: 20px;
+    display: flex;
+    justify-items: center;
+    text-align: center;
+}
+
+
+.boxUno{
+    background-color: #2f3e46;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+
+
+.boxContacto{
+
+    font-family: 'Anton';
+    font-size: x-large;
+    background-color: #f6f0d4;
+    
+
+    padding-right: 20px;
+    border: #2f3e46 solid;
+    width: auto;
+}
+
+legend{
+
+    text-align: center;
+    margin-top: 10px;
+}
+
+.botonContacto{
+    margin-left: 430px;
+    margin-bottom: 20px;
+}
+textarea{
+
+    margin-left: 30px;    
+    width: 800px;
+    height: 200px;
+}
+
+.textoContacto{
+
+    margin-left: 30px;
+}
+
+
+.holder{
+    margin-left: 30px;
+}
+
+.holderTres{
+    margin-left: 52px;
+
+}
+
+
+
+/*TIENDA*/
+
+
+.gridPadre{
+    
+
+    margin: auto;
+    padding: 200px;
+    
+    border: #2f3e46 sold;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+    row-gap: 10%;
+    column-gap: 10%;
+    
+}
+
+.titulo{
+    
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-family: 'Anton';
+    background-color:aliceblue;
+    border: black solid;
+}
+
+.item{
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content:center ;
+    
+    row-gap: 30rem;
+    background-color: lightblue;
+    -webkit-text-stroke-color: 3px #89b0ae ;
+    width: 300px;
+    height: 300px;
+
+}
+    
+.productoNombre{
+        
+    background-color: #89b0ae;
+    font-family: 'Anton';
+    text-align: center;
+    width: 300px;
+    border:solid #2f3e46
+
+
+}
+
+.productoNombre:hover{
+
+    filter: grayscale(70%);
+}
+
+.producto:hover{
+
+    width: 250px;
+    transition: height 0.4s , width 0.4s;
+}
+
+.dashboard {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns:  auto auto;
+    background-color: #B9C6AE;
+    color: #444;
+}
+  
+.box {
+    
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+  
+}
+  
+.a {
+    
+    display: table-column;
+    grid-column: 1 / 3;
+    height: 350px;
+    
+}
+.b {
+    grid-column: 3 ;
+    grid-row: 1/ 3;
+    height: 800px;
+    
+    
+}
+.c {
+    grid-column: 1 ;
+    grid-row: 2 ;
+    height: 400px;
+    
+}
+.d {
+    grid-column: 2 ;
+    grid-row: 2 ;
+    height: 400px;
+}
+
+
+.nav-link{
+    color: black;
+    font-size: 20px;
+}
+
+.boxTexto{
+        
+    color: #2f3e46;
+    padding: 20px;
+    background-color: antiquewhite;
+    border: 5px solid #2f3e46 ;
+        
+}
+
+.footerPrincipal{
+    
+    color:#2f3e46; 
+    font-size: x-large;
+    background-image: radial-gradient(#bee3db,#9DA3A4) ;
+    border: 2px #2f3e46 solid; 
+    font-family: 'Anton';
+    padding: 20px;
+
+    
+    
+}
+
+
+
+
+#card{
+    background-color:antiquewhite;
+    text-align: left;
+    font-size: 20px;
+}
+
+.dashboardItem{
+    border-radius: 30px;
+    background-color: gray;
+    color: white;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    margin: 30px 30px;
+    display: inline-block;
+    transition: height 0.4s , width 0.4s;
+}
+
+.dashboardItem:hover{
+
+    width: 220px;
+    height: 220px;
+}
+
+.box a{
+
+
+    display:table-column ;
+}
+
+
+@media(max-Width:1200px)
+
+{
+    .dashboard{
+        display: inline;
+    }
+
+    .a{
+        height: 400px;
+    }
+
+    .b{
+
+        height: 400px;
+    }
+
+    .dashboardItem{
+    
+        background-color: gray;
+        color: white;
+        border: 1px solid black;
+        width: 200px;
+        height: 200px;
+        margin: 30px 30px;
+        display: inline-block;
+    
+    }
+
+    .caja{
+
+        width: 400px;
+        height: 500px;
+
+    }
+    
+    .textoLogin{
+
+    
+        font-size: 20px;
+    }
+
+    .item{
+        
+        width: 300px;
+        height: 200px;
+        display: grid;
+    }
+    .productoNombre{
+        
+        text-align: center;
+        width: 300px;
+        display: grid;
+    }
+    
+    .producto{
+        
+        width: 150px;
+        
+        
+    }
+
+    .producto:hover{
+        width: 200px;
+    }
+    .gridPadre{
+        margin: auto;
+        display: grid;
+        grid-area: gridPadre;
+        grid-template-columns: auto;
+        row-gap: 50px;
+        column-gap: 0;
+    }
+
+
+
+}
